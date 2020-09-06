@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Register Form
+	</title>
+</head>
+<body>
+<fieldset>
+	<legend>
+		Register Form
+	</legend>
+	<form action="#" method="get">
+
+	<div>
+		<label for="yn">Your Name</label>
+		<input type="text" name="yourname" id="yn" placeholder="First Name" required="">
+		<input type="text" name="syourname" placeholder="Last Name">
+	</div>
+	<br>
+	<div>
+		<label for="gmail">Your Gmail</label>
+		<input type="gmail" name="gmail" id="gmail" placeholder="your@gmail" required="">
+	</div>
+	<br>
+	<div>
+		<label for="bd">
+			Date Of Birth :
+		</label>
+		<input type="date" name="date" id="bd" required="">
+	</div>
+	<br>
+	<div>
+		<label for="ph">Telephone Number :</label>
+		<input type="text" name="code" placeholder="for example: +95" maxlength="4">
+		<input type="tel" name="phno" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+	</div>
+	<br>
+	<div>
+		<label for="add">
+			Address:
+		</label>
+		<textarea id="add" rows="5" cols="50"></textarea>
+	</div>
+	<br>
+	<div>
+		<label>
+			Color
+		</label>
+		<input type="color" name="color">
+	</div>
+	<br>
+	<div>
+		<label for="pf">
+			Choose Your Profile
+		</label>
+		<input type="file" name="photo" id="pf">
+	</div>
+	<br>
+	<div>
+		<label>Choose Your Gender</label>
+		<input type="radio" id="male" value="male" name="gender"><label for="male">Male</label>
+		<input type="radio" id="female" value="female" name="gender"><label for="female">Female</label>
+		<input type="radio" id="other" value="other" name="gender"><label for="other">Other</label>
+<br>
+
+	<div>
+		<label for="ps">Password</label>
+		<input type="password" name="password" id="ps" placeholder="Type Password" required="">
+<label>Comfirm Password
+</label>
+		<input type="password" name="cpassword" placeholder="Type Comfirm Password" required="">
+
+	</div>
+	<br>
+	
+		<button type="submit">Register</button>
+		<input type="reset" value="Reset">
+		<br>
+		  <label for="gsearch">Search Google:</label>
+  <input type="search" id="gsearch" name="gsearch">
+  <input type="button" value="Search">
+	</form>
+</fieldset>
+</body>
+</html>
